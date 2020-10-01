@@ -10,6 +10,19 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="doc.js">
+
+
+<style>
+    /* Made the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+
+
+
+
 </head>
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -101,7 +114,7 @@
 </ul> -->
 
 
-<div id="content">
+<!-- <div id="content">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
 
@@ -112,7 +125,73 @@
 
       </div>
   </nav>
-</div>
+</div> -->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active">Home</li>
+      <li data-target="#demo" data-slide-to="1">Artworks</li>
+      <li data-target="#demo" data-slide-to="2">Blogs</li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/12-lana-del-ray-just-ride.jpg" alt="One" width="1100" height="200">
+        <div class="carousel-caption">
+          <h3>HOME</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/Lars-Von-Trier-Homage-Rich-Lee-Love.png" alt="Two" width="1100" height="600">
+        <div class="carousel-caption">
+          <h3>Artworks.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/lana-del-rey-love-music-video.png" alt="Three" width="1100" height="600">
+        <div class="carousel-caption">
+          <h3>Blogs</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <!-- Added captions to the demo slides -->
+  <!-- <div class="carousel-item">
+    <img src="./img/12-lana-del-ray-just-ride.jpg" alt="LDR">
+    <div class="carousel-caption">
+      <h3>Lorem, ipsum.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="./img/Lars-Von-Trier-Homage-Rich-Lee-Love.png" alt="LDR">
+    <div class="carousel-caption">
+      <h3>Lorem, ipsum.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="./img/lana-del-rey-love-music-video.png" alt="LDR">
+    <div class="carousel-caption">
+      <h3>Lorem, ipsum.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+  </div> -->
 
 
   
